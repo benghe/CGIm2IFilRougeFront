@@ -1,0 +1,11 @@
+.compte{
+    margin: 10px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    padding: 10px;
+}
+
+.topofpage{
+    background-image: url("asset/033120_HT_covid-cat_feat.jpg");
+}
