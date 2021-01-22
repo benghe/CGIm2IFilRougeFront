@@ -41,18 +41,41 @@
         </div>
       </nav>
      
-    <!-- page de modification personnalisée en fonction du type -->
-    <div>
-        <a style="border: 30px;" href="modification-de-mes-infos-adoptant.html" class="btn btn-secondary" role="button" aria-pressed="true">Modifier mes informations</a>
-    </div>
 
+      <div class="container">
 
-    <!-- Button trigger modal -->
-    <div>
-        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#deleteModal">
-        Supprimer mon compte
-        </button>
-    </div>
+        <div class="row">
+            <div class="col-3">
+
+            </div>
+
+            <div class="col-6 justify-content-center">
+                <div class="row" style="border: 30px;">
+                    <!-- page de modification personnalisée en fonction du type -->
+                    <div>
+
+                        <a href="modification-de-mes-infos-adoptant.html" class="btn btn-secondary" 
+                        role="button" aria-pressed="true">Modifier mes informations</a>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#deleteModal">
+                        Supprimer mon compte
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-3">
+                
+            </div>
+
+        </div>
+
+      </div>
+
   
     <!-- Modal -->
     <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="deleteModalLabel" aria-hidden="true">
